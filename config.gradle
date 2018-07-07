@@ -1,0 +1,6 @@
+// config.gradle
+project.task("showConfig") {
+    doLast {
+        println("$project.name:showConfig")
+    }
+}
